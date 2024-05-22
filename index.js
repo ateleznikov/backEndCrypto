@@ -16,7 +16,7 @@ mongoose.connect('mongodb+srv://anton:hH4YHcaDuimXBiWk@myapp.fisvcb5.mongodb.net
 });
 
 const corsOptions = {
-  origin: 'http://cryptoprojectwp1.s3-website-eu-west-1.amazonaws.com',
+  origin: 'http://cryptoprojectwp1.s3-website-eu-west-1.amazonaws.com/',
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Origin', 'X-Requested-With', 'Content-Type', 'Accept', 'Authorization']
 };
